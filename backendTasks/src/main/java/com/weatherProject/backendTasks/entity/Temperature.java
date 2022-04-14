@@ -4,17 +4,17 @@ import java.util.Date;
 
 public class Temperature {
 
-    private  String id;
+    private  Long id;
     private  short kelvin;
     private  String nameCity ;
     private String idCity;
     private Date recordCreated;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
