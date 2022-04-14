@@ -4,12 +4,6 @@ import java.util.Date;
 
 public class Temperature {
 
-    private  Long id;
-    private  short kelvin;
-    private  String nameCity ;
-    private String idCity;
-    private Date recordCreated;
-
     public Long getId() {
         return id;
     }
@@ -18,11 +12,11 @@ public class Temperature {
         this.id = id;
     }
 
-    public short getKelvin() {
+    public Long getKelvin() {
         return kelvin;
     }
 
-    public void setKelvin(short kelvin) {
+    public void setKelvin(Long kelvin) {
         this.kelvin = kelvin;
     }
 
@@ -42,12 +36,20 @@ public class Temperature {
         this.idCity = idCity;
     }
 
-    public Date getRecordCreated() {
+    public Long getRecordCreated() {
         return recordCreated;
     }
 
-    public void setRecordCreated(Date recordCreated) {
+    public void setRecordCreated(Long recordCreated) {
         this.recordCreated = recordCreated;
     }
+
+    private  Long id;
+    private  Long kelvin;
+    private  String nameCity ;
+    private String idCity;
+    private Long recordCreated;
+
+
 
 }
