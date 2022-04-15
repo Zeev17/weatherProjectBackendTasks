@@ -1,4 +1,4 @@
-package com.weatherProject.backendTasks.repository.file;
+package com.weatherProject.backendTasks.repository;
 
 import com.weatherProject.backendTasks.entity.Temperature;
 import com.weatherProject.backendTasks.repository.TemperatureRepositoryInterface;
