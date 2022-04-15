@@ -1,6 +1,6 @@
-package com.weatherProject.backendTasks.repository;
+package com.weatherProject.backendTasks.core.repository;
 
-import com.weatherProject.backendTasks.entity.Temperature;
+import com.weatherProject.backendTasks.core.entity.Temperature;
 
 import java.util.List;
 

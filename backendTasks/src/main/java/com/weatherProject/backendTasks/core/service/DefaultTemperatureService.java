@@ -1,7 +1,7 @@
-package com.weatherProject.backendTasks.service;
+package com.weatherProject.backendTasks.core.service;
 
-import com.weatherProject.backendTasks.entity.Temperature;
-import com.weatherProject.backendTasks.repository.TemperatureRepositoryInterface;
+import com.weatherProject.backendTasks.core.entity.Temperature;
+import com.weatherProject.backendTasks.core.repository.TemperatureRepositoryInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

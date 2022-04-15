@@ -1,4 +1,4 @@
-package com.weatherProject.backendTasks.entity;
+package com.weatherProject.backendTasks.core.entity;
 
 
 public class Temperature {
